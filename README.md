@@ -1,5 +1,3 @@
-# Hacker News Clone
-
 # Hackers News Clone 📰
 
 ## Content of project
