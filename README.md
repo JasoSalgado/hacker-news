@@ -13,7 +13,7 @@
 	 - Username 🧑🏻‍💻
 	 - Number of votes 👍🏻
  - Search bar 🔍
- - Spam protection (I am working on that) 🔐
+ - Spam protection 🔐
  - Deploy to Heroku
  
  ### References:
