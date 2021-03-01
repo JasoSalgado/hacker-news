@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'apps.core',
     'apps.story',
     'apps.userprofile',
-    'captcha_runner',
     'captcha',
 ]
 

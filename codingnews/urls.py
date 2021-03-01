@@ -7,7 +7,7 @@ from django.contrib.auth import views
 
 # My modules
 from apps.core.views import signup
-from apps.story.views import frontpage, submit, newest, vote, story, search
+from apps.story.views import frontpage, submit, newest, vote, story, search, captcha
 
 
 urlpatterns = [
@@ -19,7 +19,7 @@ urlpatterns = [
     path('search/', search, name='search'),
     path('submit/', submit, name='submit'),
     path('signup/', signup, name='signup'),
-    path('', include('captcha_runner.urls')),
+    path('captcha/', captcha, name='captcha'),
     path('login/', views.LoginView.as_view(template_name='core/login.html'), name='login'),
     path('logout/', views.LogoutView.as_view(), name='logout'),
     path('admin/', admin.site.urls),

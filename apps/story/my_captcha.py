@@ -1,4 +1,4 @@
-"""captcha_runner/my_captcha.py"""
+"""apps/story/my_captcha.py"""
 from django import forms
 from captcha.fields import ReCaptchaField
 

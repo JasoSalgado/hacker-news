@@ -8,6 +8,13 @@ from django.contrib.auth.decorators import login_required
 # my modules
 from .forms import StoryForm, CommentForm
 from .models import Story, Vote, Comment
+from .my_captcha import FormWithCaptcha
+
+def captcha(request):
+    context = {
+        'captcha': FormWithCaptcha,
+    }
+    return render(request, 'story/frontpage.html', context)
 
 def frontpage(request):
     # It shows the best posts
